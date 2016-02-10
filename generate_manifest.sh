@@ -10,9 +10,9 @@
 # add identifier to model_list with proper sysupgrade.img
 
 # Firmware version to update to
-firmware_version=0.5.1
+firmware_version=0.0.3
 
-firmware_path=/var/www/firmware
+firmware_path=/var/www/freifunk/firmware
 
 webserver_root=/var/www/
 rel_autoupdater_path=freifunk/firmware/autoupdater/
@@ -64,4 +64,4 @@ echo -e "\n# after three dashes follow the ecdsa signatures of everything above 
 # output further info on next steps
 echo -e "\nManifest successfully created.\nPlease sign with ecdsasign and add signatures below three dashes. Place each signature in a separate line.\nCopy manifest to $webserver_root$rel_autoupdater_path.\n"
 echo -e "Don't forget to assign correct autoupdater v6 address to interface bat0 on the update server: ip addr add <addr> dev bat0"
-echo -e "Address can be found here: https://github.com/ffulm/firmware/blob/master/files/etc/config/autoupdater"
+echo -e "Address can be found here: https://github.com/ffbsee/firmware/blob/master/files/etc/config/autoupdater"
