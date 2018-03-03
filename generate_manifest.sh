@@ -10,9 +10,9 @@
 # add identifier to model_list with proper sysupgrade.img
 
 # Firmware version to update to
-firmware_version=0.0.3
+firmware_version=1.0.3
 
-firmware_path=/var/www/freifunk/firmware
+firmware_path=/var/www/software.ffbsee.de/web/firmware
 
 webserver_root=/var/www/
 rel_autoupdater_path=freifunk/firmware/autoupdater/
